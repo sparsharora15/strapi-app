@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "model_chamber2s",
+  "info": {
+    "singularName": "model-chamber2",
+    "pluralName": "model-chamber2s",
+    "displayName": "Model Chamber2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "chamberTitle": {
+      "type": "string",
+      "required": true
+    },
+    "chamberDescription": {
+      "type": "text",
+      "required": true
+    },
+    "modelCHamberImg1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text1": {
+      "type": "string",
+      "required": true
+    },
+    "text2": {
+      "type": "string",
+      "required": true
+    },
+    "text3": {
+      "type": "string",
+      "required": true
+    },
+    "text4": {
+      "type": "string",
+      "required": true
+    },
+    "text5": {
+      "type": "string",
+      "required": true
+    },
+    "text6": {
+      "type": "string",
+      "required": true
+    },
+    "logo1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo4": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo5": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo6": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

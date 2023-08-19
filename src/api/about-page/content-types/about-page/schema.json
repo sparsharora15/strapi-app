@@ -1,0 +1,203 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "greet": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "machineImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "briefText": {
+      "type": "richtext",
+      "required": true
+    },
+    "BriefBG": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "whyOxyceaHeading": {
+      "type": "string",
+      "required": true
+    },
+    "wgyOxyceaDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "whyOxyceaCard1Img1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "whyOxyceaCard1Text1": {
+      "type": "string",
+      "required": true
+    },
+    "whyOxyceaCardImg2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "whyOxyceaCardText2": {
+      "type": "string",
+      "required": true
+    },
+    "whyOxyceaCardImg3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "whyOxyceaCardText3": {
+      "type": "string",
+      "required": true
+    },
+    "whyOxyceaCardImg4": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "whyOxyceaCardText4": {
+      "type": "string",
+      "required": true
+    },
+    "whyOxyceaCardImg5": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "whyOxyceaCardText5": {
+      "type": "string",
+      "required": true
+    },
+    "whyOxyceaCardImg6": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "whyOxyceaCardText6": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseHeading": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseDescription": {
+      "type": "richtext"
+    },
+    "inHouseCard1Title": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseCard1Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "inHouseCard1Description": {
+      "type": "text",
+      "required": true
+    },
+    "inHouseCard2Title": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseCard2Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "inHouseCard2Description": {
+      "type": "text",
+      "required": true
+    },
+    "inHouseCard3Title": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseCard3Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "inHouseCard3Description": {
+      "type": "text",
+      "required": true
+    },
+    "inHouseCard4Title": {
+      "type": "string",
+      "required": true
+    },
+    "inHouseCard4Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "inHouseCard4Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
